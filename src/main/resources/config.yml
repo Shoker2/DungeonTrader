@@ -1,0 +1,39 @@
+villagers:
+  example:
+    type: "plains"
+    profession: "weaponsmith"
+    level: "5"
+    amountRecipes: 1
+
+    CanPickUpLoot: false
+    Glowing: false
+    HasVisualFire: false
+    Invulnerable: true
+    NoAI: true
+    NoGravity: true
+    PersistenceRequired: false
+    Silent: true
+
+    Tags:
+      test: k1k
+
+    recipes:
+      1:
+        maxUses: 3
+        rewardExp: false
+
+        buyA:
+          item: "SNOW"
+          count: 1
+          customModelData: 1
+
+        buyB:
+          item: "YELLOW_WOOL"
+          count: 12
+          customModelData: 1
+
+        sell:
+          ei_mode: false
+          item: "BEDROCK"
+          count: 44
+          customModelData: 1

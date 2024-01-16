@@ -1,0 +1,7 @@
+name: DungeonTrader
+version: '${project.version}'
+main: org.ts2.dungeontrader.DungeonTrader
+api-version: '1.20'
+authors: [TS2_YourGame]
+depend: [CommandAPI]
+softdepend: [ExecutableItems, SCore]
